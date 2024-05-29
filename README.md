@@ -34,7 +34,7 @@ Steps:
   To build a docker image with the image name "myapp"
   
     docker build -t myapp .
-    
+
   Run "myapp" image in detached mode on port 8080 with the container name "my_application_container"
   
     docker run -d -p 8080:8080 --name my_application_container myapp
@@ -51,3 +51,4 @@ Steps:
 **NOTE:**
 
 **Execute "image_ps_remove.sh" to delete all images and containers forcefully **
+[Docker Helloworld project.pdf](https://github.com/RameshKrishnanNaraKrish/docker_helloworld_project/files/15484638/Docker.Helloworld.project.pdf)

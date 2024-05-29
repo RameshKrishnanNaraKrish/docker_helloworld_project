@@ -5,27 +5,20 @@ Steps:
   Stage 1:
   
     1. Take an Ubuntu base image
-    
     2. Install JDK11
-    
     3. Install Maven
-    
     4. Install Git
-    
     5. Clone GIT Repo https://github.com/bkrrajmali/helloworld.git
-    
     6. Maven Build
     
   Stage 2:
   
     1. Take a openjdk-11-jre-slim image
-    
     2. executes CMD of the .war file generated as part of the maven build in stage 1
     
   Stage 3:
   
     1. Take a tomcat base image
-    
     2. Copy the .war file generated as part of the maven build in stage 1 to webapps/ folder in Tomcat
     
 
